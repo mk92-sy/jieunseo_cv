@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <>
       <header>
-        <h1>JieunSeo</h1>
+        <h1>Jieun Seo</h1>
         {!isDesktop ? (
           <>
             <button
@@ -28,14 +28,14 @@ export default function Header() {
           <nav className="nav">
             <Link to="/">Home</Link>
             <a
-              href="/src/assets/etc/CV_Jieun Seo.pdf"
+              href="/src/assets/etc/cv.pdf"
               target="__blank"
               title="open CV.pdf"
             >
               CV
             </a>
-            <Link to="/work-experience">Work Experience</Link>
-            <Link to="/research-experience">Research Experience</Link>
+            <Link to="/work">Work Experience</Link>
+            <Link to="/research">Research Experience</Link>
           </nav>
         )}
       </header>
@@ -52,11 +52,11 @@ export default function Header() {
           </button>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <a
-                href="/src/assets/etc/CV_Jieun Seo.pdf"
+                href="/src/assets/etc/cv.pdf"
                 target="__blank"
                 title="open CV.pdf"
               >
@@ -64,10 +64,10 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="/work-experience">Work Experience</a>
+              <Link to="/work">Work Experience</Link>
             </li>
             <li>
-              <a href="/research-experience">Research Experience</a>
+              <Link to="/research">Research Experience</Link>
             </li>
           </ul>
         </nav>
