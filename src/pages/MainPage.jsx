@@ -21,7 +21,7 @@ export default function MainPage() {
             </div>
             <h3 className="sticky-sub-title mt-2 mb-1">
               <WavingHandRoundedIcon />
-              &nbsp;SUMMARY
+              &nbsp;Introduction
             </h3>
             <p>
               Jieun has 2 year and 4 months experience in Clinical Research

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isOpenMobileMenu, setIsOpenMobileMenu] = useState(false);
@@ -25,7 +26,7 @@ export default function Header() {
           </>
         ) : (
           <nav className="nav">
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
             <a
               href="/src/assets/etc/CV_Jieun Seo.pdf"
               target="__blank"
@@ -33,8 +34,8 @@ export default function Header() {
             >
               CV
             </a>
-            <a href="/work-experience">Work Experience</a>
-            <a href="/research-experience">Research Experience</a>
+            <Link to="/work-experience">Work Experience</Link>
+            <Link to="/research-experience">Research Experience</Link>
           </nav>
         )}
       </header>

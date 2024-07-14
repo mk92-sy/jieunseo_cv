@@ -17,7 +17,7 @@ export default function Footer() {
           }}
         >
           {phone && <span>Phone</span>}
-          <a href="tel:010-8261-8875">
+          <a href="tel:010-8261-7785">
             <PhoneAndroidIcon />
           </a>
         </li>
@@ -30,7 +30,7 @@ export default function Footer() {
           }}
         >
           {email && <span>E-mail</span>}
-          <a href="mailto:plm323@naver.com">
+          <a href="mailto:dms31875@gmail.com">
             <EmailIcon />
           </a>
         </li>
