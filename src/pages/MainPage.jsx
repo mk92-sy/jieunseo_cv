@@ -14,7 +14,10 @@ export default function MainPage() {
           <div className="right">
             <div className="sticky-title">
               <h2>Jieun Seo</h2>
-              <h3>Clinical Research Associate</h3>
+              <h3 className="d-flex align-center gap-1">
+                <i className="dot" />
+                Clinical Research Associate
+              </h3>
             </div>
             <h3 className="sticky-sub-title mt-2 mb-1">
               <WavingHandRoundedIcon />

@@ -9,7 +9,7 @@ export default function WorkExperiencePage() {
   return (
     <>
       <section>
-        <h2 className="mt-3 mb-1">Reserch Experience</h2>
+        <h2 className="mt-3 mb-1 sticky-title">Work Experience</h2>
         <Timeline
           sx={{
             [`& .${timelineItemClasses.root}:before`]: {
