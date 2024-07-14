@@ -3,7 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import { Link } from "react-router-dom";
-
+import cvPdf from "../assets/etc/cv.pdf";
 export default function Header() {
   const [isOpenMobileMenu, setIsOpenMobileMenu] = useState(false);
   const isDesktop = useMediaQuery({ query: "(min-width: 768px)" });
@@ -27,7 +27,7 @@ export default function Header() {
         ) : (
           <nav className="nav">
             <Link to="/">Home</Link>
-            <a href="../assets/etc/cv.pdf" target="__blank" title="open CV.pdf">
+            <a href={cvPdf} target="__blank" title="open CV.pdf">
               CV
             </a>
             <Link to="/work">Work Experience</Link>
@@ -51,11 +51,7 @@ export default function Header() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a
-                href="/src/assets/etc/cv.pdf"
-                target="__blank"
-                title="open CV.pdf"
-              >
+              <a href={cvPdf} target="__blank" title="open CV.pdf">
                 CV
               </a>
             </li>
