@@ -27,11 +27,7 @@ export default function Header() {
         ) : (
           <nav className="nav">
             <Link to="/">Home</Link>
-            <a
-              href="/src/assets/etc/cv.pdf"
-              target="__blank"
-              title="open CV.pdf"
-            >
+            <a href="/assets/etc/cv.pdf" target="__blank" title="open CV.pdf">
               CV
             </a>
             <Link to="/work">Work Experience</Link>
