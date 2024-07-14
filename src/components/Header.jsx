@@ -1,13 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import cvPdf from "../assets/etc/cv.pdf";
+
 export default function Header() {
   const [isOpenMobileMenu, setIsOpenMobileMenu] = useState(false);
   const isDesktop = useMediaQuery({ query: "(min-width: 768px)" });
+  const location = useLocation();
 
+  useEffect(() => {
+    if (isOpenMobileMenu) {
+      setIsOpenMobileMenu(false);
+    }
+  }, [location]);
   return (
     <>
       <header>

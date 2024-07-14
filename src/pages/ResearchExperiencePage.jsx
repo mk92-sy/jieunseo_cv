@@ -2,7 +2,7 @@ export default function ResearchExperiencePage() {
   return (
     <>
       <section>
-        <h2 className="mt-3 mb-3 sticky-title">Reserch Experience</h2>
+        <h2 className="mt-3 mb-3 sticky-title">Research Experience</h2>
         <h3 className="mt-3">
           Prostate Cancer, Phase 2, Local Study (Aug 2022 – Jun2024)
         </h3>
