@@ -24,7 +24,7 @@ export default function MainPage() {
               &nbsp;Introduction
             </h3>
             <p>
-              Jieun has 2 year and 4 months experience in Clinical Research
+              Jieun has 2 year and 7 months experience in Clinical Research
               Associate with Dt&SanoMedics and Dt&CRO. Jieun has worked across a
               range of therapeutic areas including Hepatobiliary and Pancreatic
               Surgery, Dermatology, Burn Surgery and Oncology.
