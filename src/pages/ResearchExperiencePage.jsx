@@ -7,6 +7,7 @@ export default function ResearchExperiencePage() {
           Prostate Cancer, Phase 2, Local Study (Aug 2022 – Jun2024)
         </h3>
         <ul className="list dash mt-2">
+          <li>On-site monitoring (SIV, SMV)</li>
           <li>Submission to the site IRB</li>
           <li>ISF and TMF Management</li>
           <li>SAE/SUSAR/PD Report</li>
